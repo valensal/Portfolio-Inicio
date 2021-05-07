@@ -1,0 +1,90 @@
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../images/naoshima.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-size:100%;
+    position:relative;
+    padding-top:48px; 
+    overflow-x: hidden;  
+}
+
+nav{
+    margin-left:30vw;
+    margin-right: 33px;
+    margin-top: 10px;
+  
+
+}
+
+nav a{
+    margin-right: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    
+}   
+
+nav a:last-child{
+    margin-right: 0;
+} 
+
+nav a:hover{
+    color:rgb(2, 81, 128)
+}
+
+h1{
+    width: 86px;
+    font-size: 36px;
+}
+
+main{
+    margin-top: 30px;
+    padding-top: 56px;
+}
+
+h3{
+    padding-bottom: 24px;
+    font-size: 20px;
+}
+
+p{
+
+    font-size: 18px;
+    padding-bottom:24px ;
+}
+
+button{
+    width: 200px;
+    height: 50px;   
+    border-radius: 0px;
+    border: 2px solid #000000;
+    font-family: 'Oswald', sans-serif;
+} 
+
+button:hover{
+    background-color:rgb(2, 81, 128);
+    color:white;
+    animation: scalebutton 2s;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    padding-left: 100px;
+}
+
